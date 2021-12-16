@@ -14,9 +14,12 @@ html{
     position: sticky;
     background-color: turquoise;
     border: none;
-    padding: 1rem;
-    top: 83vh;
+    padding: 1.5rem;
+    top: 78vh;
     float: right;
+    border-radius: 60px;
+    margin-right: 20px;
+    font-family: poppins-bold;
 }
 
 @font-face {
