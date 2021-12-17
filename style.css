@@ -12,10 +12,10 @@ html{
 
 .scroll-btn {
     position: sticky;
-    background-color: turquoise;
+    background-color: #0BF8FF;
     border: none;
     padding: 1.5rem;
-    top: 78vh;
+    top: 70vh;
     float: right;
     border-radius: 60px;
     margin-right: 20px;
@@ -78,6 +78,7 @@ html{
     text-decoration: none;
     font-family: poppins-lightitalic;
     float: left;
+    text-decoration: underline;
   }
 
   #welcomesection {
@@ -109,11 +110,19 @@ html{
     color: white;
     font-family: poppins-regular;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.7;
 }
 
+.graphic {
+    height: 17%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+}
 
 
 /*ANDEN SEKTION BEGYNDER*/
@@ -131,35 +140,43 @@ background-repeat: no-repeat;
     font-family: poppins-bold;
     text-align: center;
     font-size: 35px;
-    line-height: 100px;
+    padding-top: 20px;
 }
 
 .grafiskdesignp {
    color: black;
    font-family: poppins-regular;
    text-align: left;
-   margin-left: 10%;
-   margin-right: 10%;
+   margin-left: 15%;
+   margin-right: 15%;
    line-height: 1.7;
 }
 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 .logoer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 13%;
-    margin-top: 40px;
-}
+    width: 100%;
+    margin-top: 30px;
+  }
 
-.logomaxcarlsen {
-    margin-right: 10%;
-}
+  .logoer img {
+      width: auto;
+      height: 150px;
+  }
+  
 
 .blikfang {
     display: flex;
     justify-content: center;
-    height: 160px;
+}
+
+.blikfang img{
+    height: 270px;
     margin-top: 20px;
+    
 }
 
 
@@ -185,8 +202,8 @@ background-repeat: no-repeat;
     color:white;
     font-family: poppins-regular;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.7;
  }
 
@@ -195,6 +212,11 @@ background-repeat: no-repeat;
     justify-content: center; 
     width: 100%;
     margin-top: 10%;
+ }
+ 
+ iframe {
+     border: none;
+
  }
 
 .youtubevideo iframe {
@@ -225,8 +247,8 @@ background-repeat: no-repeat;
     color:#000000;
     font-family: poppins-regular;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.7;
  }
 
@@ -235,6 +257,13 @@ background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     height: 320px;
+    margin-top: 20px;
+ }
+
+ .wireframes {
+    display: flex;
+    justify-content: center;
+    height: 172px;
     margin-top: 20px;
  }
 
@@ -253,15 +282,16 @@ background-repeat: no-repeat;
     font-family: poppins-bold;
     text-align: center;
     font-size: 35px;
-    line-height: 100px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .kontaktp {
     color:#ffffff;
     font-family: poppins-regular;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 1.7;
  }
 
@@ -269,22 +299,266 @@ background-repeat: no-repeat;
     color:#ffffff;
     font-family: poppins-regular;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 5;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 4;
  }
 
-.linkedintext {
-    color: #ffffff;
-    font-family: poppins-regular;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+.linkedin {
+    color: white;
+    text-decoration: underline;
     
- }
+}
 
 @media (min-width: 600px) {
-    body {
-    background-color: white;
+    
+    #navbar a{
+        margin: 6px;
+        font-size: 24px;
+    }
+    
+    .scroll-btn{
+        padding: 2.2rem;
+        top: 60vh;
+        margin-right: 35px;
+    }
+
+    
+    .logo {
+        font-size: 40px;
+        padding: 10px;
+    }
+    #welcomesection{
+        height: 1300px;
+    }
+    .welcomeh2{
+        font-size: 50px;
+    }
+    .meimg{
+         width: 350px;
+        height: auto;
+    }
+    .welcomep{
+        font-size: 20px;
+    }
+
+    #grafiskdesignsection{
+        height: 1300px;
+    }
+    .grafiskdesignh2{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+    .grafiskdesignp{
+        font-size: 20px;
+    }
+
+    .logoer img{
+        width: 270px;
+        height: auto;
+    }
+
+    .blikfang img{
+        width: 400px;
+        height: auto;
+    }   
+
+    #videosection{
+        height: 800px;
+        
+    }
+    .videoh2{
+        font-size: 50px;
+    }
+
+    .videop{
+        font-size: 20px;
+    }
+
+    .youtubevideo iframe{
+        width: 500px;
+        height: 300px;
+    }
+
+    #webdesignsection{
+        height: 1100px;
+    }
+
+    .webdesignh2{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+    .webdesignp{
+        font-size: 20px;
+    }
+    .hjemmesidedesign img{
+        width: 450px;
+        height: auto;
+    }
+    .wireframes img{
+        height: 255px;
+    }
+
+    .kontakth2{
+        font-size: 50px;
+    }
+    .kontaktp{
+        font-size: 20px;
+    }
+    .infotext{
+        font-size: 20px;
     }
 }
+    @media (min-width: 1100px) {
+        #welcomesection{
+            background-image: url("./img/firstsection.png");
+            height: 900px;
+        }
+    
+        .logo{
+            text-align: center;
+            font-size: 70px;
+            padding: 40px;
+        }
+
+        #navbar {
+            position: sticky;
+            top: 0;
+            bottom: auto;
+        }
+        #navbar a{
+            padding-left: 60px;
+        }
+
+        .welcomeh2 {
+            font-size: 90px;
+            text-align: left;
+            margin-left: 220px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .meimg{
+            float: right;
+            margin-right: 300px;
+            padding-top: 50px;
+        }
+
+        .welcomep{
+            font-size: 25px;
+            margin-right: 700px;
+            padding-top: 40px;
+        }
+
+        .graphic{
+            padding-top: 20px;
+        }
+
+        #grafiskdesignsection{
+            background-image: url("./img/secondsection.png");
+            height: 900px;
+        }
+
+        .grafiskdesignh2{
+            font-size: 90px;
+            text-align: right;
+            padding-right: 200px;
+        }
+
+        .grafiskdesignp{
+            font-size: 25px;
+            margin-left: 650px;
+            padding-top: 40px;
+        }
+
+        .blikfang{
+            float: left;
+            margin-top: -560px;
+            padding-left: 100px;
+        }
+
+        .logoer{
+            padding-left: 120px;
+        }
+
+        #videosection{
+            background-image: url("./img/thirdsection.png");
+            height: 909px;
+        }
+
+        .videoh2{
+            font-size: 90px;
+            text-align: left;
+            padding-left: 300px;
+            padding-top: 50px;
+        }
+        .videop{
+            font-size: 25px;
+            margin-right: 650px;
+            padding-top: 40px;
+        }
+
+        .youtubevideo iframe{
+            width: 800px;
+            height: 500px;
+            margin-top: -120px;
+            margin-left: 200px;
+        }
+
+        #webdesignsection{
+            background-image: url("./img/fourthsection.png");
+            height: 900px;
+        }
+
+        .webdesignh2{
+            font-size: 90px;
+            text-align: right;
+            padding-right: 300px;
+        }
+
+        .webdesignp{
+            font-size: 25px;
+            margin-left: 650px;
+            padding-top: 40px;
+        }
+
+        .hjemmesidedesign{
+            float: left;
+            padding-left: 300px;
+            margin-top: 50px;
+        }
+        
+        .wireframes{
+            margin-top: 50px;
+            padding-right: 100px;
+        }
+        .wireframes img{
+            width: 500px;
+            height: 320px;
+        }
+        #kontaktsection{
+            background-image: url("./img/lastsection.png");
+            height: 900px;
+        }
+
+        .kontakth2{
+            font-size: 90px;
+            text-align: left;
+            padding-left: 400px;
+
+        }
+
+        .kontaktp{
+            font-size: 25px;
+            margin-left: 300px;
+            margin-right: 600px;
+            margin-top: 10px;
+        }
+
+        .infotext{
+            font-size: 25px;
+            margin-left: 300px;
+            margin-right: 600px;
+        }
+
+    }
