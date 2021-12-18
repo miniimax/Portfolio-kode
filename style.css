@@ -415,6 +415,10 @@ background-repeat: no-repeat;
             background-image: url("./img/firstsection.png");
             height: 900px;
         }
+
+        .scroll-btn{
+            top: 85vh;
+        }
     
         .logo{
             text-align: center;
